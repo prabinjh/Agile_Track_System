@@ -1,0 +1,174 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin User",
+      "email": "admin@example.com",
+      "password": "adminpassword",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "name": "Employee One",
+      "email": "employee1@example.com",
+      "password": "password1",
+      "role": "employee"
+    },
+    {
+      "id": 3,
+      "name": "Employee Two",
+      "email": "employee2@example.com",
+      "password": "password2",
+      "role": "employee"
+    },
+    {
+      "name": "Employee Three",
+      "email": "employee3@example.com",
+      "password": "password3",
+      "role": "employee",
+      "id": 4
+    },
+    {
+      "name": "Prabin",
+      "email": "jhprabin555@gmail.com",
+      "password": "12345",
+      "role": "employee",
+      "id": 5
+    },
+    {
+      "name": "Berlin JH",
+      "email": "jhberlin888@gmail.com",
+      "password": "berlin_5JH",
+      "role": "employee",
+      "id": 6
+    }
+  ],
+  "scrums": [
+    {
+      "id": 1,
+      "name": "Scrum Team A"
+    },
+    {
+      "id": 2,
+      "name": "Scrum Team B"
+    },
+    {
+      "name": "Scrum Team C",
+      "id": 3
+    },
+    {
+      "name": "Scrum Team D",
+      "id": 4
+    },
+    {
+      "name": "Scrum Team E",
+      "id": 5
+    },
+    {
+      "name": "Team 1",
+      "id": 6
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Task One",
+      "description": "Description for Task One",
+      "status": "Done",
+      "scrumId": 1,
+      "assignedTo": 2,
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2024-07-01"
+        },
+        {
+          "status": "In Progress",
+          "date": "2024-08-26"
+        },
+        {
+          "status": "Done",
+          "date": "2024-08-26"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Task Two",
+      "description": "Description for Task Two",
+      "status": "In Progress",
+      "scrumId": 2,
+      "assignedTo": 3,
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2024-07-02"
+        },
+        {
+          "status": "In Progress",
+          "date": "2024-07-03"
+        }
+      ]
+    },
+    {
+      "title": "Task 3",
+      "description": "Description for Task 3",
+      "status": "In Progress",
+      "scrumId": 3,
+      "assignedTo": 3,
+      "history": [
+        {
+          "status": "In Progress",
+          "date": "2024-08-26"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "title": "frontend",
+      "description": "Description for Task One ",
+      "status": "To Do",
+      "scrumId": 4,
+      "assignedTo": "5",
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2025-03-18"
+        }
+      ],
+      "id": 4
+    },
+    {
+      "title": "Backend",
+      "description": "Do a ecommerce website backend parts",
+      "status": "In Progress",
+      "scrumId": 5,
+      "assignedTo": "6",
+      "history": [
+        {
+          "status": "In Progress",
+          "date": "2025-03-20"
+        },
+        {
+          "status": "In Progress",
+          "date": "2025-03-20"
+        }
+      ],
+      "id": 5
+    },
+    {
+      "title": "Webdevelopment",
+      "description": "Frontend",
+      "status": "In Progress",
+      "scrumId": 6,
+      "assignedTo": "5",
+      "history": [
+        {
+          "status": "In Progress",
+          "date": "2025-03-21"
+        }
+      ],
+      "id": 6
+    }
+  ]
+}

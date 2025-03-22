@@ -1,0 +1,71 @@
+/* ScrumDetails.css */
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h3, h4 {
+    text-align: center;
+    color: #333;
+    font-weight: 600;
+}
+
+.task-list, .user-list {
+    padding: 0;
+}
+
+.task-item, .user-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f9f9f9;
+    margin: 10px 0;
+    padding: 12px 15px;
+    border-radius: 6px;
+    transition: background 0.3s ease;
+}
+
+.task-item:hover, .user-item:hover {
+    background: #ececec;
+}
+
+.task-title {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.status {
+    font-weight: bold;
+    color: #555;
+}
+
+select {
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #fff;
+    transition: border 0.3s ease;
+}
+
+select:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    .task-item, .user-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
